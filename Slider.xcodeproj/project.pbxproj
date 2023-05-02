@@ -59,12 +59,11 @@
 		B6D678A32A00F82F004219BB /* Slider */ = {
 			isa = PBXGroup;
 			children = (
-				B6D678A42A00F82F004219BB /* SliderApp.swift */,
-				B6D678A62A00F82F004219BB /* ContentView.swift */,
-				B6D678B82A01229E004219BB /* SliderView.swift */,
-				B6D678B22A00FB77004219BB /* UISliderRepresentation.swift */,
-				B6D678B42A010D7C004219BB /* Game.swift */,
-				B6D678B62A0113A7004219BB /* SliderManager.swift */,
+				B6D678BC2A012FAB004219BB /* App */,
+				B6D678BA2A012F01004219BB /* Views */,
+				B6D678BB2A012F6E004219BB /* Representations */,
+				B6D678BD2A012FC1004219BB /* Models */,
+				B6D678BE2A01300E004219BB /* Services */,
 				B6D678A82A00F830004219BB /* Assets.xcassets */,
 				B6D678AA2A00F830004219BB /* Preview Content */,
 			);
@@ -77,6 +76,47 @@
 				B6D678AB2A00F830004219BB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B6D678BA2A012F01004219BB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B6D678A62A00F82F004219BB /* ContentView.swift */,
+				B6D678B82A01229E004219BB /* SliderView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B6D678BB2A012F6E004219BB /* Representations */ = {
+			isa = PBXGroup;
+			children = (
+				B6D678B22A00FB77004219BB /* UISliderRepresentation.swift */,
+			);
+			path = Representations;
+			sourceTree = "<group>";
+		};
+		B6D678BC2A012FAB004219BB /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B6D678A42A00F82F004219BB /* SliderApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B6D678BD2A012FC1004219BB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B6D678B42A010D7C004219BB /* Game.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B6D678BE2A01300E004219BB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B6D678B62A0113A7004219BB /* SliderManager.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
