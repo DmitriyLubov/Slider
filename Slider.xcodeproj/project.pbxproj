@@ -12,6 +12,8 @@
 		B6D678A92A00F830004219BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6D678A82A00F830004219BB /* Assets.xcassets */; };
 		B6D678AC2A00F830004219BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6D678AB2A00F830004219BB /* Preview Assets.xcassets */; };
 		B6D678B32A00FB77004219BB /* UISliderRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D678B22A00FB77004219BB /* UISliderRepresentation.swift */; };
+		B6D678B52A010D7C004219BB /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D678B42A010D7C004219BB /* Game.swift */; };
+		B6D678B72A0113A7004219BB /* SliderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D678B62A0113A7004219BB /* SliderManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		B6D678A82A00F830004219BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6D678AB2A00F830004219BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B6D678B22A00FB77004219BB /* UISliderRepresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISliderRepresentation.swift; sourceTree = "<group>"; };
+		B6D678B42A010D7C004219BB /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		B6D678B62A0113A7004219BB /* SliderManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 				B6D678A42A00F82F004219BB /* SliderApp.swift */,
 				B6D678A62A00F82F004219BB /* ContentView.swift */,
 				B6D678B22A00FB77004219BB /* UISliderRepresentation.swift */,
+				B6D678B42A010D7C004219BB /* Game.swift */,
+				B6D678B62A0113A7004219BB /* SliderManager.swift */,
 				B6D678A82A00F830004219BB /* Assets.xcassets */,
 				B6D678AA2A00F830004219BB /* Preview Content */,
 			);
@@ -143,6 +149,8 @@
 				B6D678B32A00FB77004219BB /* UISliderRepresentation.swift in Sources */,
 				B6D678A72A00F82F004219BB /* ContentView.swift in Sources */,
 				B6D678A52A00F82F004219BB /* SliderApp.swift in Sources */,
+				B6D678B72A0113A7004219BB /* SliderManager.swift in Sources */,
+				B6D678B52A010D7C004219BB /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
