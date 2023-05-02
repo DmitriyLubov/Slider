@@ -8,12 +8,26 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var targetValue = Int.random(in: 0...100)
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        VStack(spacing: 20) {
+            Text("Подвиньте слайдер, как можно ближе к: \(targetValue)")
+            
+            HStack {
+                Text("0")
+                Spacer()
+                Text("100")
+            }
+            
+            Button("Проверь меня!") {
+                
+            }
+            
+            Button("Начать заново") {
+                
+            }
         }
         .padding()
     }
