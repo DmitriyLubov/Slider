@@ -32,8 +32,8 @@ struct UISliderRepresentation: UIViewRepresentable {
     }
     
     func updateUIView(_ uiView: UISlider, context: Context) {
-        uiView.setValue(Float(value), animated: true)
         uiView.thumbTintColor = color
+        uiView.setValue(Float(value), animated: true)
     }
     
     func makeCoordinator() -> Coordinator {

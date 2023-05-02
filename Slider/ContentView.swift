@@ -9,24 +9,29 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State private var targetValue = Int.random(in: 0...100)
+    @StateObject private var sliderManager = SliderManager()
+    @State private var showAlert = false
     
     var body: some View {
         VStack(spacing: 20) {
-            Text("Подвиньте слайдер, как можно ближе к: \(targetValue)")
+            Text("Подвиньте слайдер, как можно ближе к: \(sliderManager.game.targetValue)")
             
-            HStack {
-                Text("0")
-                Spacer()
-                Text("100")
-            }
+            SliderView(
+                value: $sliderManager.game.currentValue,
+                opacityThumb: sliderManager.opacityThumb
+            )
             
             Button("Проверь меня!") {
-                
+                showAlert.toggle()
+            }
+            .alert("Your Score", isPresented: $showAlert, actions: {}) {
+                Text(sliderManager.game.score.formatted())
             }
             
             Button("Начать заново") {
-                
+                withAnimation {
+                    sliderManager.resetSlider()
+                }
             }
         }
         .padding()
